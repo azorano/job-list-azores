@@ -1,0 +1,44 @@
+# Environment Variables
+.env
+
+# Logs
+logs
+*.log
+
+# Node Modules
+node_modules/
+
+# Build Artifacts
+dist/
+build/
+
+# Documentation
+DOCS/
+__DOCS/
+DOCS__/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Database Connection
+mongodb/
+
+# Debugger Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE Configuration
+.vscode/
+.idea/
+*.code-workspace
+
+# Other Excluded Files
+coverage/
+public/uploads/
+uploads/
