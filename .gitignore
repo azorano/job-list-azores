@@ -37,6 +37,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.code-workspace
+.prettierrc
 
 # Other Excluded Files
 coverage/
