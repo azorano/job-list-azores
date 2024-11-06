@@ -1,27 +1,31 @@
 # Environment Variables
 .env
+.env.local
+.env.*.local
 
 # Logs
-logs
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Node Modules
 node_modules/
 
-# Build Artifacts
+# Build and Production Artifacts
 dist/
 build/
 
 # Documentation
-DOCS/
+DOCS*/
 __DOCS/
-DOCS__/
 
-# Temporary files
+# Temporary Files
 *.tmp
 *.swp
 
-# Database Connection
+# Database Connections
 mongodb/
 
 # Debugger Logs
@@ -37,9 +41,14 @@ Thumbs.db
 .vscode/
 .idea/
 *.code-workspace
-.prettierrc
 
-# Other Excluded Files
+# Test Coverage
 coverage/
+
+# File Uploads
 public/uploads/
 uploads/
+
+# Misc
+.pnp
+.pnp.js

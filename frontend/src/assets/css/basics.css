@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/*
+
+src/assets/css/basics.css */
+
+/*
+
+BOILERPLATE
+A more precise way of setting 'all:initial'
+
+*/
+
+*,
+::after,
+::before {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: none;
+}
+
+html {
+  all: initial;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  color: rgb(75, 85, 99);
+  max-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.55;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  background-color: white;
+  max-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  zoom: 1;
+  transform: scale(1);
+  scale: 1;
+  font-size: 1rem;
+}
+
+i,
+img,
+svg {
+  text-rendering: geometricPrecision !important;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #cee002;
+  transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bbb;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0073e6;
+  text-decoration: underline;
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  border: none;
+  outline: 0;
+  background: none;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 0.125rem solid #cee002;
+  outline-offset: 0.125rem;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  width: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::after,
+blockquote::before,
+q::after,
+q::before {
+  content: '';
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+/* end */

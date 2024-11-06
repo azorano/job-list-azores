@@ -1,0 +1,19 @@
+/*
+
+src/index.css
+
+*/
+
+/* IMPORT BASIC */
+@import './assets/css/basics.css';
+
+/* IMPORT TAILWIND */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* IMPORT FONT */
+@import '@fontsource/merriweather';
+
+/* IMPORT CUSTOM CSS */
+@import './assets/main.css';
